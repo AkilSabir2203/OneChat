@@ -182,3 +182,21 @@ body {
     cursor: pointer;
     border-radius: 0px 0px 19px 0px;
 }
+.status-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #eee;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.status-dot.online {
+    background-color: limegreen;
+}
